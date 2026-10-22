@@ -1,0 +1,12 @@
+export default [
+  { num: 191, id: 'weekend-countdown', category: 'fun', title: 'Weekend countdown', desc: 'A huge live countdown to Friday 17:00 with a work-week progress bar and weekend confetti.', keywords: 'friday work week timer clock end of week', load: () => import('./weekend-countdown.js') },
+  { num: 192, id: 'fake-call', category: 'fun', title: 'Fake incoming call', desc: 'Schedule a realistic full-screen incoming call with ringtone, vibration and call timer.', keywords: 'prank escape phone ring caller', load: () => import('./fake-call.js') },
+  { num: 193, id: 'compliment-generator', category: 'fun', title: 'Compliment generator', desc: 'Hundreds of random compliments, turned into a shareable 1080x1080 image card.', keywords: 'kind nice praise card image', load: () => import('./compliment-generator.js') },
+  { num: 194, id: 'bubble-wrap', category: 'fun', title: 'Bubble wrap', desc: 'Pop a sheet of virtual bubble wrap with sound, animation and a pop-all cascade.', keywords: 'pop fidget stress relief', load: () => import('./bubble-wrap.js') },
+  { num: 195, id: 'zen-garden', category: 'fun', title: 'Zen garden', desc: 'Rake sand into grooves, place stones, smooth it out and save a PNG.', keywords: 'rake sand relax calm stones', load: () => import('./zen-garden.js') },
+  { num: 196, id: 'pet-rock', category: 'fun', title: 'Pet rock', desc: 'Adopt a rock. Feed it, pet it, talk to it; its mood changes in real time even while you are away.', keywords: 'virtual pet tamagotchi', load: () => import('./pet-rock.js') },
+  { num: 197, id: 'photo-ager', category: 'fun', title: 'Photo ager', desc: 'A stylistic old-photo effect that shows a picture +10 to +50 years on. Not a real prediction.', keywords: 'age old face filter sepia vintage', load: () => import('./photo-ager.js') },
+  { num: 198, id: 'conspiracy-board', category: 'fun', title: 'Conspiracy board', desc: 'Pin notes and photos to a cork board, connect them with red string and generate wild theories.', keywords: 'red string detective corkboard theory', load: () => import('./conspiracy-board.js') },
+  { num: 199, id: 'is-it-friday', category: 'fun', title: 'Is it Friday?', desc: 'A giant YES or NO answer to the only question that matters.', keywords: 'friday weekday today', load: () => import('./is-it-friday.js') },
+  { num: 200, id: 'daily-sound', category: 'fun', title: 'Daily sound', desc: 'One big button that plays a different synthesized sound every day.', keywords: 'audio synth beep web audio daily', load: () => import('./daily-sound.js') },
+];

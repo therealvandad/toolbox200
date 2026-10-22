@@ -1,9 +1,9 @@
 # Toolbox 200
 
 One website, 200 small tools. Everything runs in your browser: no accounts, no server, no build step.
+Data you enter stays in your browser's local storage.
 
 **Live:** https://therealvandad.github.io/toolbox200/
-Data you enter stays in your browser's local storage.
 
 ## Run it
 
